@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4724df;
+}
+
+header {
+    background-color: #888888;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #616161;
+    padding: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    
+}
+nav ul li a {
+    color: white; /* Aquí se define el color del texto */
+    text-decoration: none;
+}
+
+
+/* Estilos para el formulario de contacto */
+form {
+    background-color: #6c6969;
+    padding: 70px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #dcdfe1;
+    text-align: center;
+}
+
+form label {
+    
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #742525;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #fdfeff;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005499;
+}
+
+footer {
+    background-color: #da2809;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
