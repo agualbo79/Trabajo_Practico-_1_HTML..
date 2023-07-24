@@ -1,0 +1,16 @@
+El documento HTML comienza con la declaración <!DOCTYPE html> que indica que se trata de un documento HTML5. Luego, el contenido principal del documento se encuentra dentro de las etiquetas <html> que encierran todo el contenido de la página. Se especifica el idioma de la página usando el atributo lang="en" para inglés.
+
+Encabezado (<head>): En el encabezado de la página, se encuentran metadatos importantes para el navegador y otros recursos necesarios. En este caso, se especifica la codificación de caracteres (<meta charset="UTF-8">) para admitir caracteres especiales y acentos. También se establece la configuración de visualización para dispositivos (<meta name="viewport" content="width=device-width, initial-scale=1.0">). Además, se vincula un archivo de hoja de estilos (<link rel="stylesheet" href="./index.css">) para aplicar estilos al contenido de la página.
+
+Cuerpo del documento (<body>): Aquí se encuentra el contenido visible de la página web. El cuerpo se divide en diferentes secciones:
+
+Encabezado (<header>): Contiene un logotipo de imagen (<img>) con las dimensiones 100x100 píxeles y tres enlaces (<a>) que forman la barra de navegación con los nombres "Inicio", "Nosotros" y "Contacto".
+
+Secciones (<section>): Hay tres secciones principales en la página, cada una con contenido centrado (<div style="text-align: center;">):
+
+La primera sección tiene un título (<h1>), un párrafo (<p>) con texto de relleno "Lorem ipsum..." y una imagen (<img>).
+La segunda sección contiene otro título, un párrafo y un elemento <video> con un atributo <source> para mostrar un video en formato MP4.
+La tercera sección contiene un subtítulo (<h6>) y un párrafo con más texto de relleno.
+Pie de página (<footer>): El pie de página contiene un título (<h1>) "Redes" y una lista desordenada (<ul>) con enlaces (<a>) a las redes sociales como "Facebook", "Instagram" y "Drive". También incluye un párrafo (<p>) con texto de relleno.
+
+Comentarios: El código HTML también incluye comentarios < !-- ... -->, que son líneas de texto que no se mostrarán en la página web, pero que permiten agregar notas y explicaciones para facilitar la comprensión y el mantenimiento del código. -->
