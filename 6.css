@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0080FF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+.nosotros-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.imagen-nosotros {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+footer {
+    background-color: #0080FF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
